@@ -63,7 +63,7 @@ C:\
 
   * Sửa registry
   * Tắt tính năng hệ thống
-  * Restart máy
+  * Có thể yêu cầu đặt lại mật khẩu máy
 
 👉 Vì vậy:
 
@@ -77,7 +77,7 @@ C:\
 * Máy sẽ yêu cầu **restart**
 * Sau khi bật lại:
 
-  * Nhấn **F3** (theo hướng dẫn tool)
+  * Nhấn **F3** 
 
 ---
 
