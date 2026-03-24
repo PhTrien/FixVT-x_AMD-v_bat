@@ -77,7 +77,7 @@ C:\
 * Máy sẽ yêu cầu **restart**
 * Sau khi bật lại:
 
-  * Nhấn **F3**
+  * Nhấn **F3** để hoàn tất quá trình
     
 ![z7654528480098_d91313309b05379a7c41042b2beae876](https://github.com/user-attachments/assets/bafdd26b-1747-48d3-b4f5-f8c07b7fc435)
 ![z7654528458515_dea5c46d37a9042000b9c69f838d7bae](https://github.com/user-attachments/assets/7456f492-6a3d-4f0f-8298-7c83e8c3491e)
