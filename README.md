@@ -27,9 +27,10 @@ Công cụ Batch giúp **fix lỗi ảo hóa (VT-x / AMD-v)** trên Windows bằ
 ---
 ## ⬇️ Tải xuống
 
-👉 **Download tool tại đây:**
+👇 **Download tool tại đây:**
 
 [![Download](https://img.shields.io/badge/Download-FixVT--x--AMD--v-blue?style=for-the-badge&logo=windows)](https://github.com/PhTrien/FixVT-x_AMD-v/archive/refs/heads/main.zip)
+
 ## 📂 Cấu trúc yêu cầu
 
 Di chuyển thư mục "dgreadiness_v3.6" vào ổ C:\
