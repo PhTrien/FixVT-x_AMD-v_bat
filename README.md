@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="[LINK](https://github.com/user-attachments/assets/538b889d-5a82-4b84-9d5e-abdf6c64eaa6)" />
-</p>                                                        
+<img width="647" height="142" alt="ascii-art-text" src="https://github.com/user-attachments/assets/4c3d1215-f853-4b2a-8ecb-f17a4ae99491" />
+</p>
+                                                        
 
 # 🛠 Fix VT-x / AMD-v Tool
 
