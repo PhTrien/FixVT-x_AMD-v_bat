@@ -1,7 +1,7 @@
 <p align="center">
 <img width="647" height="142" alt="ascii-art-text" src="https://github.com/user-attachments/assets/4c3d1215-f853-4b2a-8ecb-f17a4ae99491" />
 </p>
----
+
 <p align="center">
   <img src="https://img.shields.io/badge/version-v1.0-blue">
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20ESXi-black?logo=windows">
