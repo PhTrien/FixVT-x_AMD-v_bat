@@ -21,7 +21,7 @@ REM BFCPEWINDOWWIDTH=120
 REM BFCPEWTITLE=Tool by Mhale
 REM BFCPEOPTIONEND
 @echo off
-chcp 437 >nul
+chcp 65001 >nul
 setlocal enabledelayedexpansion
 title Tool by Ph Trien
 net session >nul 2>&1
@@ -42,34 +42,33 @@ cls
 echo.
 echo.
 echo %RESET%
-echo %CYAN%                          __  __  __     ______ ______       ______  _____   _____   __        %RESET%
-echo %CYAN%                  /'\_/`\/\ \/\ \/\ \   /\__  _\/\__  _\    /\__  _\/\  __`\/\  __`\/\ \       %RESET%
-echo %CYAN%                 /\      \ \ \ \ \ \ \  \/_/\ \/\/_/\ \/    \/_/\ \/\ \ \/\ \ \ \/\ \ \ \      %RESET%
-echo %CYAN%                 \ \ \__\ \ \ \ \ \ \ \  __\ \ \   \ \ \       \ \ \ \ \ \ \ \ \ \ \ \ \ \  __ %RESET%
-echo %CYAN%                  \ \ \_/\ \ \ \_\ \ \ \L\ \\ \ \   \_\ \__     \ \ \ \ \ \_\ \ \ \_\ \ \ \L\ \%RESET%
-echo %CYAN%                   \ \_\\ \_\ \_____\ \____/ \ \_\  /\_____\     \ \_\ \ \_____\ \_____\ \____/%RESET%
-echo %CYAN%                    \/_/ \/_/\/_____/\/___/   \/_/  \/_____/      \/_/  \/_____/\/_____/\/___/ %RESET%
+echo %CYAN%                       ███╗   ███╗██╗   ██╗██╗  ████████╗██╗    ████████╗ ██████╗  ██████╗ ██╗          %RESET%
+echo %CYAN%                       ████╗ ████║██║   ██║██║  ╚══██╔══╝██║    ╚══██╔══╝██╔═══██╗██╔═══██╗██║         %RESET%
+echo %CYAN%                       ██╔████╔██║██║   ██║██║     ██║   ██║       ██║   ██║   ██║██║   ██║██║          %RESET%
+echo %CYAN%                       ██║╚██╔╝██║██║   ██║██║     ██║   ██║       ██║   ██║   ██║██║   ██║██║          %RESET%
+echo %CYAN%                       ██║ ╚═╝ ██║╚██████╔╝███████╗██║   ██║       ██║   ╚██████╔╝╚██████╔╝███████╗      %RESET%
+echo %CYAN%                       ╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝   ╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝     %RESET%
 echo.
-echo                              %ESC%[1;91mDI CHUYEN FILE "dgreadiness_v3.6" vao o C: NHAN SO 8 DE CHAY%ESC%[0m
+echo                       [7;31mDI CHUYEN FILE "dgreadiness_v3.6" vao o C:\ ROI QUAY LAI DAY NHAN SO 8 DE CHAY[0m
 echo.
 echo.
-echo                                        1.  Disable Hyper-V Hypervisor
+echo                                        [1m1.  Disable Hyper-V Hypervisor[0m
 echo.
-echo                                        2.  Tat HypervisorLaunchType + VsmLaunchType
+echo                                        [1m2.  Tat HypervisorLaunchType + VsmLaunchType[0m
 echo.
-echo                                        3.  Disable DISM features (Hyper-V, VMP, WHP)
+echo                                        [1m3.  Disable DISM features (Hyper-V, VMP, WHP)[0m[0m
 echo.
-echo                                        4.  Tat VBS va Credential Guard
+echo                                        [1m4.  Tat VBS va Credential Guard[0m[0m[0m
 echo.
-echo                                        5.  Set-ExecutionPolicy Unrestricted
+echo                                        [1m5.  Set-ExecutionPolicy Unrestricted[0m[0m[0m[0m
 echo.
-echo                                        6.  Chay DG_Readiness_Tool_v3.6.ps1 -Disable
+echo                                        [1m6.  Chay DG_Readiness_Tool_v3.6.ps1 -Disable[0m[0m[0m[0m[0m
 echo.
-echo                                        7.  Khoi dong lai may
+echo                                        [1m7.  Khoi dong lai may[0m[0m[0m[0m[0m[0m
 echo.
 echo                                        [93m8.  CHAY TAT CA[0m
 echo.
-echo                                        0.  Thoat
+echo                                        [1m0.  Thoat[0m[0m[0m[0m[0m[0m[0m
 
 choice /c 1234567890 /n >nul
 
@@ -232,9 +231,9 @@ if "%SKIP6%"=="0" (
 )
 
 echo.
-echo  ------------------------------------------------------------
+echo  [7;31m------------------------------------------------------------[0m
 echo  [91m[LUU Y] KHI MAY KHOI DONG LEN  "F3" DE TIEP TUC[0m
-echo  ------------------------------------------------------------
+echo  [7;31m------------------------------------------------------------[0m
 echo.
 choice /c yn /n /m "                  Khoi dong lai may ngay? (Y = Co  /  N = Quay menu): "
 if errorlevel 2 goto MENU
@@ -245,7 +244,24 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "Restart-Computer -Force"
 cls
 echo.
 echo.
-echo                  Tam biet!
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo                                              ███████████  █████ █████ ██████████
+echo                                             ░░███░░░░░███░░███ ░░███ ░░███░░░░░█
+echo                                              ░███    ░███ ░░███ ███   ░███  █ ░ 
+echo                                              ░██████████   ░░█████    ░██████   
+echo                                              ░███░░░░░███   ░░███     ░███░░█   
+echo                                              ░███    ░███    ░███     ░███ ░   █
+echo                                              ███████████     █████    ██████████
+echo                                             ░░░░░░░░░░░     ░░░░░    ░░░░░░░░░░ 
+echo.
 echo.
 timeout /t 2 >nul
 exit /b
